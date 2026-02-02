@@ -57,7 +57,7 @@ export default function GlobalSearch({ isOpen, onClose }: GlobalSearchProps) {
             document.body.style.overflow = "hidden";
         } else {
             document.body.style.overflow = "";
-            setQuery("");
+            setTimeout(() => setQuery(""), 0);
         }
         return () => {
             document.body.style.overflow = "";

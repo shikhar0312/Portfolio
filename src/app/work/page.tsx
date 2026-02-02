@@ -107,7 +107,7 @@ export default function WorkPage() {
                     animate="visible"
                     className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6"
                 >
-                    {workExperience.map((work, index) => (
+                    {workExperience.map((work) => (
                         <motion.div
                             key={work.title}
                             variants={fadeInUp}

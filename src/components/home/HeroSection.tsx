@@ -3,7 +3,7 @@
 import { motion, Variants } from "framer-motion";
 import Link from "next/link";
 import Image from "next/image";
-import { ArrowRight, Download, Code2, Server, Cloud, Database, FileText } from "lucide-react";
+import { ArrowRight, Code2, Server, Cloud, Database, FileText } from "lucide-react";
 
 const skills = [
     { icon: Server, label: "Backend Engineering" },
