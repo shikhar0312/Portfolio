@@ -71,7 +71,7 @@ const resumeData = {
             degree: "Bachelor of Technology",
             field: "Computer Science / Information Technology",
             institution: "Dr. A. P. J. Abdul Kalam Technical University, Lucknow",
-            year: "2020 - 2024",
+            year: "2023 - 2027",
         },
     ],
 
